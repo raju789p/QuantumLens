@@ -99,8 +99,14 @@ st.markdown("""
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
+
+/* Hide deploy status and Streamlit branding */
+.block-container div[data-testid="stDecoration"] {
+    display: none;
+}
 </style>
 """, unsafe_allow_html=True)
+
 
 
 # MOSDAC Knowledge Base and System Prompt
