@@ -1,0 +1,13 @@
+[theme]
+base="dark"
+
+[server]
+enableXsrfProtection = false
+enableCORS = false
+
+[client]
+showSidebarNavigation = false
+showFooter = false
+
+[ui]
+hideTopBar = true
