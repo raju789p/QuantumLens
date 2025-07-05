@@ -94,6 +94,14 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
+st.markdown("""
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+""", unsafe_allow_html=True)
+
 
 # MOSDAC Knowledge Base and System Prompt
 MOSDAC_SYSTEM_PROMPT = """
